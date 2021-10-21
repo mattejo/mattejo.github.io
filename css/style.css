@@ -1,0 +1,82 @@
+/* Global */
+body {
+  background-color: pink;
+}
+
+.site  {
+color: grey;
+max-width: 1000px;
+float: none;
+margin: auto;
+background-color: lightpink;
+padding: 10px;
+border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica;
+  align: center;
+}
+
+p {
+  font-family: Arial, Helvetica;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  color: #333;
+  font-weight: 300;
+}
+
+a {
+  font-family: Arial, Helvetica;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #333;
+}
+
+ul li {
+  align-content: center;
+  background-color: lightgrey;
+  font-family: Arial, Helvetica;
+  list-style: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul li:hover {
+  background-color: grey;
+}
+
+header {
+  width: 100%;
+  display: block;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav a {
+padding: 10px;
+text-decoration: none;
+color: grey;
+}
+
+header nav a:hover {
+  color: white;
+  background-color: pink;
+
+}
+
+main {
+  display: block;
+  float: auto;
+  width; 28%;
+  min-height: 300px;
+}
+
+footer {
+  display: inline-block;
+  width; 100%;
+}
