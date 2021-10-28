@@ -135,3 +135,34 @@ footer {
   display: inline-block;
   width; 100%;
 }
+
+/* ****************************** */
+/* *** flex box
+/* ****************************** */
+.nav-flex {
+  width: 90%;
+  min-height: 30px;
+  padding:2px;
+  margin: auto;
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* around; /*flex-start;*/
+  align-items: center;
+  border: 1px red dashed;
+}
+.nav-flex span {
+  display: inline-block;
+  background-color: red;
+  padding: 4px;
+  width: 20%;
+  min-width: 60px;
+  margin:2px;
+  text-align: center;
+}
+
+/* ****************************** */
+/* end flex */
+/* ****************************** */
