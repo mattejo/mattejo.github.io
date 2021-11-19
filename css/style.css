@@ -1,21 +1,23 @@
-/* Global */
+  /* Global */
 body {
   background-color: pink;
 }
 
-.site  {
-color: grey;
-max-width: 1000px;
-float: none;
-margin: auto;
-background-color: lightpink;
-padding: 10px;
-border-radius: 10px;
+.site {
+  color: grey;
+  max-width: 1000px;
+  float: none;
+  margin: auto;
+  background-color: lightpink;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica;
-  align: center;
+  text-align: center;
+  margin: auto;
+  display: grid;
 }
 
 p {
@@ -48,7 +50,7 @@ ul li:hover {
 
 header {
   width: 100%;
-  display: block;
+  display: border-left: ;ck;
 }
 
 header nav {
@@ -58,15 +60,14 @@ header nav {
 }
 
 header nav a {
-padding: 10px;
-text-decoration: none;
-color: grey;
+  padding: 10px;
+  text-decoration: none;
+  color: grey;
 }
 
 header nav a:hover {
   color: white;
   background-color: pink;
-
 }
 
 main {
@@ -75,94 +76,76 @@ main {
   width; 28%;
   min-height: 300px;
 }
+
 @charset "utf-8";
 
+.formular {
+  width: 500px;
+  clear: both;
+}
+
+.formular input {
+  width: 100%;
+  clear: both;
+}
+
 #formular {
-width: 600px;
-border: 5px solid rgba(234,234,234,1.00);
-border-radius: 10px;
-background-color: rgba(225,225,225,1.00);
-padding: 20px;
-font-size: 16px;
+  width: 600px;
+  border: 5px solid rgba(234, 234, 234, 1.00);
+  border-radius: 10px;
+  background-color: rgba(225, 225, 225, 1.00);
+  padding: 20px;
+  font-size: 16px;
 }
 
 #formular input[type=text],
 #formular input[type=email] {
-width: 100%;
-padding: 10px 5px 10px 10px;
-margin: 5px 0 15px 0;
-display: inline-block;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-font-size: 18px;
+  width: 100%;
+  padding: 10px 5px 10px 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
 #formular input[type=submit] {
-width: 100%;
-background-color: grey;
-color: rgba(255,255,255,1.00);
-padding: 15px 20px;
-margin: 10px 0;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-font-size: 18px;
+  width: 100%;
+  background-color: grey;
+  color: rgba(255, 255, 255, 1.00);
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 #formular input[type=submit]:hover {
-background-color: lightpink;
+  background-color: lightpink;
 }
 
 /* MOBILTELEFON och SMARTPHONE (portrait/stående) */
-@media only screen and (max-width: 768px){
-#formular {
-width: 90%;
-}
-#formular textarea {
-width: 100%;
-height: 200px;
-padding: 10px 5px 10px 10px;
-margin: 5px 0 15px 0;
-border: 2px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-font-family: inherit;
-font-size: 18px;
-}
+@media only screen and (max-width: 768px) {
+  #formular {
+    width: 90%;
+  }
 
-footer {
-  display: inline-block;
-  width; 100%;
-}
+  #formular textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px 5px 10px 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 18px;
+  }
 
-/* ****************************** */
-/* *** flex box
-/* ****************************** */
-.nav-flex {
-  width: 90%;
-  min-height: 30px;
-  padding:2px;
-  margin: auto;
-  display: flex;
-  background-color: DodgerBlue;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* around; /*flex-start;*/
-  align-items: center;
-  border: 1px red dashed;
-}
-.nav-flex span {
-  display: inline-block;
-  background-color: red;
-  padding: 4px;
-  width: 20%;
-  min-width: 60px;
-  margin:2px;
-  text-align: center;
-}
-
-/* ****************************** */
-/* end flex */
-/* ****************************** */
+  footer {
+    display: inline-block;
+    width;
+    100%;
+  }
