@@ -1,4 +1,3 @@
-  /* Global */
 body {
   background-color: pink;
 }
@@ -36,7 +35,8 @@ a {
 }
 
 ul li {
-  align-content: center;
+  display: flex;
+
   background-color: lightgrey;
   font-family: Arial, Helvetica;
   list-style: none;
@@ -49,12 +49,13 @@ ul li:hover {
 }
 
 header {
+  display: grid;
   width: 100%;
   display: border-left: ;ck;
 }
 
 header nav {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
@@ -71,7 +72,7 @@ header nav a:hover {
 }
 
 main {
-  display: block;
+  display: flex;
   float: auto;
   width; 28%;
   min-height: 300px;
@@ -79,18 +80,20 @@ main {
 
 @charset "utf-8";
 
+
 .formular {
-  width: 500px;
+  display: flex;
   clear: both;
 }
 
 .formular input {
   width: 100%;
   clear: both;
+
 }
 
 #formular {
-  width: 600px;
+  width: 1000px;
   border: 5px solid rgba(234, 234, 234, 1.00);
   border-radius: 10px;
   background-color: rgba(225, 225, 225, 1.00);
@@ -126,26 +129,9 @@ main {
   background-color: lightpink;
 }
 
-/* MOBILTELEFON och SMARTPHONE (portrait/stående) */
-@media only screen and (max-width: 768px) {
-  #formular {
-    width: 90%;
-  }
 
-  #formular textarea {
-    width: 100%;
-    height: 200px;
-    padding: 10px 5px 10px 10px;
-    margin: 5px 0 15px 0;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: inherit;
-    font-size: 18px;
-  }
 
-  footer {
+footer {
     display: inline-block;
     width;
-    100%;
-  }
+}
